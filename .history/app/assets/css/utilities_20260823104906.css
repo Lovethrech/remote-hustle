@@ -71,33 +71,33 @@
 }
 
 .text-primary {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .text-muted {
-    color: var(--color-text-muted);
+  color: var(--color-text-muted);
 }
 
 /* Width */
 
 .w-full {
-    width: 100%;
+  width: 100%;
 }
 
 /* Screen-reader-only content */
 
 .sr-only {
-    position: absolute;
+  position: absolute;
 
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 
-    border: 0;
+  border: 0;
 }
