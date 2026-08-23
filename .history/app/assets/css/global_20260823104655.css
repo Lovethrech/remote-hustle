@@ -142,17 +142,17 @@ main {
 /* Responsive */
 
 @media (min-width: 768px) {
-    :root {
-        --container-padding: 2rem;
-    }
+  :root {
+    --container-padding: 2rem;
+  }
 
-    .section {
-        padding-block: var(--space-20);
-    }
+  .section {
+    padding-block: var(--space-20);
+  }
 }
 
 @media (min-width: 1024px) {
-    .section {
-        padding-block: var(--space-24);
-    }
+  .section {
+    padding-block: var(--space-24);
+  }
 }

@@ -52,8 +52,8 @@ p {
 }
 
 strong {
-    color: var(--color-text);
-    font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  font-weight: var(--font-weight-semibold);
 }
 
 /* Accessible focus */
@@ -63,8 +63,8 @@ button:focus-visible,
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-    outline: 3px solid rgba(37, 99, 235, 0.3);
-    outline-offset: 3px;
+  outline: 3px solid rgba(37, 99, 235, 0.3);
+  outline-offset: 3px;
 }
 
 /* Form defaults */
@@ -72,87 +72,87 @@ select:focus-visible {
 input,
 textarea,
 select {
-    width: 100%;
-    color: var(--color-text);
+  width: 100%;
+  color: var(--color-text);
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* Main page */
 
 main {
-    min-height: calc(100vh - var(--header-height));
+  min-height: calc(100vh - var(--header-height));
 }
 
 /* Standard section */
 
 .section {
-    padding-block: var(--space-16);
+  padding-block: var(--space-16);
 }
 
 .section--soft {
-    background: var(--color-background-soft);
+  background: var(--color-background-soft);
 }
 
 /* Container */
 
 .container {
-    width: min(
-        calc(100% - (var(--container-padding) * 2)),
-        var(--container-width)
-    );
+  width: min(
+    calc(100% - (var(--container-padding) * 2)),
+    var(--container-width)
+  );
 
-    margin-inline: auto;
+  margin-inline: auto;
 }
 
 /* Section headings */
 
 .section-heading {
-    max-width: 680px;
-    margin-bottom: var(--space-10);
+  max-width: 680px;
+  margin-bottom: var(--space-10);
 }
 
 .section-heading--center {
-    margin-inline: auto;
-    text-align: center;
+  margin-inline: auto;
+  text-align: center;
 }
 
 .section-heading__eyebrow {
-    display: inline-block;
-    margin-bottom: var(--space-3);
+  display: inline-block;
+  margin-bottom: var(--space-3);
 
-    color: var(--color-primary);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .section-heading__title {
-    margin-bottom: var(--space-4);
+  margin-bottom: var(--space-4);
 }
 
 .section-heading__description {
-    max-width: 620px;
-    font-size: var(--font-size-lg);
+  max-width: 620px;
+  font-size: var(--font-size-lg);
 }
 
 /* Responsive */
 
 @media (min-width: 768px) {
-    :root {
-        --container-padding: 2rem;
-    }
+  :root {
+    --container-padding: 2rem;
+  }
 
-    .section {
-        padding-block: var(--space-20);
-    }
+  .section {
+    padding-block: var(--space-20);
+  }
 }
 
 @media (min-width: 1024px) {
-    .section {
-        padding-block: var(--space-24);
-    }
+  .section {
+    padding-block: var(--space-24);
+  }
 }
