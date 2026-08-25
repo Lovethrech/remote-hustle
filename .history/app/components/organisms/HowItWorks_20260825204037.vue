@@ -39,7 +39,7 @@ const steps = [
             </div>
 
             <div class="how-it-works__grid">
-                <MoleculesStepCard
+                <MoleStepCard
                     v-for="step in steps"
                     :key="step.number"
                     :number="step.number"

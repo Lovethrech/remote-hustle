@@ -58,27 +58,32 @@ defineProps({
 }
 
 .step-card__number {
-    width: 48px;
-    height: 48px;
-    display: grid;
-    place-items: center;
-    color: var(--color-white);
-    background: var(--color-primary);
-    border-radius: var(--radius-md);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
+  width: 48px;
+  height: 48px;
+
+  display: grid;
+  place-items: center;
+
+  color: var(--color-white);
+  background: var(--color-primary);
+
+  border-radius: var(--radius-md);
+
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
 }
 
 .step-card__content {
-    min-width: 0;
+  min-width: 0;
 }
 
 .step-card__title {
-    margin-bottom: var(--space-2);
-    font-size: var(--font-size-xl);
+  margin-bottom: var(--space-2);
+
+  font-size: var(--font-size-xl);
 }
 
 .step-card__description {
-    font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 }
 </style>

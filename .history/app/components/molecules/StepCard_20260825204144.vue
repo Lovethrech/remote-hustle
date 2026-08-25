@@ -74,11 +74,12 @@ defineProps({
 }
 
 .step-card__title {
-    margin-bottom: var(--space-2);
-    font-size: var(--font-size-xl);
+  margin-bottom: var(--space-2);
+
+  font-size: var(--font-size-xl);
 }
 
 .step-card__description {
-    font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 }
 </style>
