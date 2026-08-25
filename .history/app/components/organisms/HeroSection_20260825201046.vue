@@ -211,138 +211,142 @@
 }
 
 .hero__visual-card {
-    width: min(100%, 380px);
+  width: min(100%, 380px);
 
-    padding: var(--space-6);
+  padding: var(--space-6);
 
-    background: var(--color-white);
+  background: var(--color-white);
 
-    border: 1px solid var(--color-gray-200);
-    border-radius: var(--radius-xl);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-xl);
 
-    box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-lg);
 }
 
 .hero__visual-label {
-    display: inline-block;
+  display: inline-block;
 
-    margin-bottom: var(--space-6);
+  margin-bottom: var(--space-6);
 
-    color: var(--color-primary);
+  color: var(--color-primary);
 
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
 }
 
 .hero__visual-item {
-    display: grid;
-    grid-template-columns: auto 1fr;
+  display: grid;
+  grid-template-columns: auto 1fr;
 
-    align-items: start;
+  align-items: start;
 
-    gap: var(--space-4);
+  gap: var(--space-4);
 
-    padding-block: var(--space-4);
+  padding-block: var(--space-4);
 
-    border-bottom: 1px solid var(--color-gray-100);
+  border-bottom: 1px solid var(--color-gray-100);
 }
 
 .hero__visual-item:last-child {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 .hero__visual-number {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 
-    color: var(--color-primary);
+  color: var(--color-primary);
 
-    background: var(--color-primary-light);
+  background: var(--color-primary-light);
 
-    border-radius: var(--radius-md);
+  border-radius: var(--radius-md);
 
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
 }
 
 .hero__visual-item strong {
-    display: block;
+  display: block;
 
-    margin-bottom: var(--space-1);
+  margin-bottom: var(--space-1);
 }
 
 .hero__visual-item p {
-    font-size: var(--font-size-sm);
+  font-size: var(--font-size-sm);
 }
 
 .hero__floating-card {
-    position: absolute;
+  position: absolute;
 
-    display: none;
+  display: none;
 
-    padding: var(--space-3) var(--space-4);
+  padding: var(--space-3) var(--space-4);
 
-    background: var(--color-white);
+  background: var(--color-white);
 
-    border: 1px solid var(--color-gray-200);
-    border-radius: var(--radius-lg);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
 
-    box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md);
 }
 
 .hero__floating-card span,
 .hero__floating-card strong {
-    display: block;
+  display: block;
 }
 
 .hero__floating-card span {
-    color: var(--color-gray-500);
+  color: var(--color-gray-500);
 
-    font-size: var(--font-size-xs);
+  font-size: var(--font-size-xs);
 }
 
 .hero__floating-card strong {
-    font-size: var(--font-size-sm);
+  font-size: var(--font-size-sm);
 }
 
 @media (min-width: 640px) {
-    .hero__actions {
-        flex-direction: row;
-    }
+  .hero__actions {
+    flex-direction: row;
+  }
+
+  .hero__button {
+    width: auto;
+  }
 }
 
 @media (min-width: 900px) {
-    .hero {
-        padding-block: var(--space-20);
-    }
+  .hero {
+    padding-block: var(--space-20);
+  }
 
-    .hero__inner {
-        grid-template-columns:
-        minmax(0, 1.1fr)
-        minmax(320px, 0.9fr);
+  .hero__inner {
+    grid-template-columns:
+      minmax(0, 1.1fr)
+      minmax(320px, 0.9fr);
 
-        gap: var(--space-16);
-    }
+    gap: var(--space-16);
+  }
 
-    .hero__visual {
-        min-height: 500px;
-    }
+  .hero__visual {
+    min-height: 500px;
+  }
 
-    .hero__floating-card {
-        display: block;
-    }
+  .hero__floating-card {
+    display: block;
+  }
 
-    .hero__floating-card--top {
-        top: 13%;
-        right: 0;
-    }
+  .hero__floating-card--top {
+    top: 13%;
+    right: 0;
+  }
 
-    .hero__floating-card--bottom {
-        bottom: 13%;
-        left: 0;
-    }
+  .hero__floating-card--bottom {
+    bottom: 13%;
+    left: 0;
+  }
 }
 </style>

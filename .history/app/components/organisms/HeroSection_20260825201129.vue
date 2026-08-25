@@ -312,6 +312,10 @@
     .hero__actions {
         flex-direction: row;
     }
+
+    .hero__button {
+        width: auto;
+    }
 }
 
 @media (min-width: 900px) {

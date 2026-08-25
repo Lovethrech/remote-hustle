@@ -309,40 +309,44 @@
 }
 
 @media (min-width: 640px) {
-    .hero__actions {
-        flex-direction: row;
-    }
+  .hero__actions {
+    flex-direction: row;
+  }
+
+  .hero__button {
+    width: auto;
+  }
 }
 
 @media (min-width: 900px) {
-    .hero {
-        padding-block: var(--space-20);
-    }
+  .hero {
+    padding-block: var(--space-20);
+  }
 
-    .hero__inner {
-        grid-template-columns:
-        minmax(0, 1.1fr)
-        minmax(320px, 0.9fr);
+  .hero__inner {
+    grid-template-columns:
+      minmax(0, 1.1fr)
+      minmax(320px, 0.9fr);
 
-        gap: var(--space-16);
-    }
+    gap: var(--space-16);
+  }
 
-    .hero__visual {
-        min-height: 500px;
-    }
+  .hero__visual {
+    min-height: 500px;
+  }
 
-    .hero__floating-card {
-        display: block;
-    }
+  .hero__floating-card {
+    display: block;
+  }
 
-    .hero__floating-card--top {
-        top: 13%;
-        right: 0;
-    }
+  .hero__floating-card--top {
+    top: 13%;
+    right: 0;
+  }
 
-    .hero__floating-card--bottom {
-        bottom: 13%;
-        left: 0;
-    }
+  .hero__floating-card--bottom {
+    bottom: 13%;
+    left: 0;
+  }
 }
 </style>

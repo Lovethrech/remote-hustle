@@ -312,6 +312,8 @@
     .hero__actions {
         flex-direction: row;
     }
+
+
 }
 
 @media (min-width: 900px) {
