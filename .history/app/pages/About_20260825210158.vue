@@ -8,7 +8,7 @@ useSeoMeta({
 
 <template>
   <main>
-    <MoleculesPageHero
+    <PageHero
       eyebrow="About Remote Hustle"
       title="Helping people build practical skills and access real opportunities."
       description="Remote Hustle connects learning, experience and career opportunities in a simple and practical way."
