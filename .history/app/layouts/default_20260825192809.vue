@@ -1,6 +1,6 @@
 <template>
     <div>
-        <OrganismsSiteHeader />
+        <SiteHeader />
 
         <slot />
     </div>
