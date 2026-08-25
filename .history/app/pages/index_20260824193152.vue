@@ -1,7 +1,12 @@
+<script setup lang="ts">
+import SiteHeader from '~/components/organisms/SiteHeader.vue';
+
+</script>
+
 <template>
   <main>
 
-    <OrganismsSiteHeader/>
+    <SiteHeader
     <section class="section">
       <div class="container">
         <div class="section-heading">

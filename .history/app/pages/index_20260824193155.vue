@@ -1,7 +1,7 @@
 <template>
   <main>
 
-    <OrganismsSiteHeader/>
+    <SiteHeader
     <section class="section">
       <div class="container">
         <div class="section-heading">

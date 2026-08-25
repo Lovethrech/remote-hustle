@@ -1,0 +1,4 @@
+<template>
+    main
+    Opportunities
+</template>
