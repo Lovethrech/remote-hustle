@@ -6,7 +6,7 @@
             <slot />
         </div>
 
-        <OrganismsSiteFooter />
+        <SiteFooter />
     </div>
 </template>
 

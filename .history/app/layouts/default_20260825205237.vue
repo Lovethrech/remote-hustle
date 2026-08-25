@@ -1,12 +1,12 @@
 <template>
     <div class="app-shell">
-        <OrganismsSiteHeader />
+        <SiteHeader />
 
         <div class="app-shell__content">
             <slot />
         </div>
 
-        <OrganismsSiteFooter />
+        <SiteFooter />
     </div>
 </template>
 

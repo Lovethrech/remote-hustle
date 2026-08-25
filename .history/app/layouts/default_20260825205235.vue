@@ -1,12 +1,12 @@
 <template>
     <div class="app-shell">
-        <OrganismsSiteHeader />
+        <SiteHeader />
 
         <div class="app-shell__content">
             <slot />
         </div>
 
-        <OrganismsSiteFooter />
+        <SiteFooter />
     </div>
 </template>
 
@@ -18,6 +18,6 @@
 }
 
 .app-shell__content {
-    flex: 1;
+  flex: 1;
 }
 </style>
