@@ -1,5 +1,5 @@
 <template>
   <main>
-    <OrganismsHeroSection />
+    <HeroSection />
   </main>
 </template>
