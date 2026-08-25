@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-    title: "Landing Page"
+    title: "Auth "
 })
 </script>
 

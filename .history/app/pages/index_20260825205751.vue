@@ -1,8 +1,4 @@
-<script setup>
-useHead({
-    title: "Landing Page"
-})
-</script>
+
 
 <template>
   <main>
