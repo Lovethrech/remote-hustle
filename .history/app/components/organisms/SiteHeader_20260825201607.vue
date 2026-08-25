@@ -237,9 +237,9 @@ const closeMenu = () => {
 }
 
 @media (min-width: 768px) {
-    .site-header__desktop-register {
-        display: block;
-    }
+  .site-header__desktop-register {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) {

@@ -1,6 +1,6 @@
 <template>
   <main>
     <OrganismsHeroSection />
-    <OrganismsOfferSection />
+    <OfferSection />
   </main>
 </template>
