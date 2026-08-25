@@ -40,6 +40,7 @@ defineProps({
     background: var(--color-white);
     border: 1px solid var(--color-gray-200);
     border-radius: var(--radius-lg);
+
     transition:
         transform var(--transition-base),
         box-shadow var(--transition-base),
@@ -47,30 +48,39 @@ defineProps({
 }
 
 .feature-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--color-gray-300);
-    box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+
+  border-color: var(--color-gray-300);
+
+  box-shadow: var(--shadow-md);
 }
 
 .feature-card__number {
-    width: 44px;
-    height: 44px;
-    display: grid;
-    place-items: center;
-    margin-bottom: var(--space-5);
-    color: var(--color-primary);
-    background: var(--color-primary-light);
-    border-radius: var(--radius-md);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
+  width: 44px;
+  height: 44px;
+
+  display: grid;
+  place-items: center;
+
+  margin-bottom: var(--space-5);
+
+  color: var(--color-primary);
+
+  background: var(--color-primary-light);
+
+  border-radius: var(--radius-md);
+
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
 }
 
 .feature-card__title {
-    margin-bottom: var(--space-3);
-    font-size: var(--font-size-xl);
+  margin-bottom: var(--space-3);
+
+  font-size: var(--font-size-xl);
 }
 
 .feature-card__description {
-    font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 }
 </style>

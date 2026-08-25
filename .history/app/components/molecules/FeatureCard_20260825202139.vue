@@ -57,20 +57,26 @@ defineProps({
     height: 44px;
     display: grid;
     place-items: center;
+
     margin-bottom: var(--space-5);
+
     color: var(--color-primary);
+
     background: var(--color-primary-light);
+
     border-radius: var(--radius-md);
+
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-bold);
 }
 
 .feature-card__title {
-    margin-bottom: var(--space-3);
-    font-size: var(--font-size-xl);
+  margin-bottom: var(--space-3);
+
+  font-size: var(--font-size-xl);
 }
 
 .feature-card__description {
-    font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 }
 </style>

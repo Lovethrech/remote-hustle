@@ -71,6 +71,6 @@ defineProps({
 }
 
 .feature-card__description {
-    font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 }
 </style>

@@ -67,10 +67,11 @@ defineProps({
 
 .feature-card__title {
     margin-bottom: var(--space-3);
+
     font-size: var(--font-size-xl);
 }
 
 .feature-card__description {
-    font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 }
 </style>
