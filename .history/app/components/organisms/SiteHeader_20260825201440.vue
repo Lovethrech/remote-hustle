@@ -86,15 +86,15 @@ const closeMenu = () => {
                     class="site-header__mobile-register"
                     @click="closeMenu"
                 >
-                    <AtomsBaseButton
+                    <BaseButton
                         to="/register"
                         variant="primary"
                         size="lg"
                         block
                     >
                         Register Now
-                    </AtomsBaseButton>
-                </div>
+                    </BaseButton>
+                    </div>
             </div>
         </nav>
     </header>

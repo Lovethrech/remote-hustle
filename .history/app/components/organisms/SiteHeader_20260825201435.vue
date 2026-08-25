@@ -83,18 +83,18 @@ const closeMenu = () => {
                 </NuxtLink>
 
                 <div
-                    class="site-header__mobile-register"
-                    @click="closeMenu"
-                >
-                    <AtomsBaseButton
-                        to="/register"
-                        variant="primary"
-                        size="lg"
-                        block
-                    >
-                        Register Now
-                    </AtomsBaseButton>
-                </div>
+  class="site-header__mobile-register"
+  @click="closeMenu"
+>
+  <BaseButton
+    to="/register"
+    variant="primary"
+    size="lg"
+    block
+  >
+    Register Now
+  </BaseButton>
+</div>
             </div>
         </nav>
     </header>

@@ -26,15 +26,15 @@
                         size="lg"
                     >
                         Register Now
-                    </AtomsBaseButton>
+                    </BaseButton>
 
-                    <AtomsBaseButton
+                    <BaseButton
                         to="/opportunities"
                         variant="secondary"
                         size="lg"
                     >
                         Explore Opportunities
-                    </AtomsBaseButton>
+                    </BaseButton>
                 </div>
 
                 <div class="hero__trust">

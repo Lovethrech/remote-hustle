@@ -41,14 +41,14 @@ const closeMenu = () => {
 
             <div class="site-header__actions">
                 <div class="site-header__desktop-register">
-                    <AtomsBaseButton
-                        to="/register"
-                        variant="primary"
-                        size="sm"
-                    >
-                        Register Now
-                    </AtomsBaseButton>
-                </div>
+  <BaseButton
+    to="/register"
+    variant="primary"
+    size="sm"
+  >
+    Register Now
+  </BaseButton>
+</div>
 
                 <button
                     class="site-header__menu-button"
@@ -82,19 +82,13 @@ const closeMenu = () => {
                     {{ item.label }}
                 </NuxtLink>
 
-                <div
+                <NuxtLink
+                    to="/register"
                     class="site-header__mobile-register"
                     @click="closeMenu"
                 >
-                    <AtomsBaseButton
-                        to="/register"
-                        variant="primary"
-                        size="lg"
-                        block
-                    >
-                        Register Now
-                    </AtomsBaseButton>
-                </div>
+                    Register Now
+                </NuxtLink>
             </div>
         </nav>
     </header>
