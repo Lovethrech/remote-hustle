@@ -186,9 +186,7 @@ const closeMenu = () => {
 }
 
 .site-header__mobile-nav {
-    position: absolute;
-    right:0;
-    width: 100%;
+    position: abosolute;
     border-top: 1px solid var(--color-gray-200);
     background: var(--color-white);
 }
