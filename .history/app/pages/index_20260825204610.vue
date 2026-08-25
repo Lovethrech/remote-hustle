@@ -3,6 +3,6 @@
     <OrganismsHeroSection />
     <OrganismsOfferSection />
     <OrganismsHowItWorks />
-    <OrganismsFinalCta />
+    <FinalCta />
   </main>
 </template>
