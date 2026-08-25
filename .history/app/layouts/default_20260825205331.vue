@@ -4,6 +4,7 @@
         <div class="app-shell__content">
             <slot />
         </div>
+
         <OrganismsSiteFooter />
     </div>
 </template>

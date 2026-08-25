@@ -123,28 +123,31 @@ const footerLinks = [
 }
 
 .site-footer__cta-label {
-    color: var(--color-gray-300);
-    font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+
+  font-size: var(--font-size-sm);
 }
 
 .site-footer__bottom {
-    padding-block: var(--space-5);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-block: var(--space-5);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .site-footer__bottom p {
-    color: var(--color-gray-400);
-    font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+
+  font-size: var(--font-size-sm);
 }
 
 @media (min-width: 768px) {
-    .site-footer__top {
-        grid-template-columns:
-            minmax(0, 1.5fr)
-            minmax(180px, 0.8fr)
-            minmax(220px, 0.8fr);
+  .site-footer__top {
+    grid-template-columns:
+      minmax(0, 1.5fr)
+      minmax(180px, 0.8fr)
+      minmax(220px, 0.8fr);
 
-        align-items: start;
-    }
+    align-items: start;
+  }
 }
 </style>

@@ -138,13 +138,13 @@ const footerLinks = [
 }
 
 @media (min-width: 768px) {
-    .site-footer__top {
-        grid-template-columns:
-            minmax(0, 1.5fr)
-            minmax(180px, 0.8fr)
-            minmax(220px, 0.8fr);
+  .site-footer__top {
+    grid-template-columns:
+      minmax(0, 1.5fr)
+      minmax(180px, 0.8fr)
+      minmax(220px, 0.8fr);
 
-        align-items: start;
-    }
+    align-items: start;
+  }
 }
 </style>
