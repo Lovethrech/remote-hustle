@@ -2,6 +2,6 @@
   <main>
     <OrganismsHeroSection />
     <OrganismsOfferSection />
-    <OrganismsHowItWorks />
+    <HowItWorks />
   </main>
 </template>
