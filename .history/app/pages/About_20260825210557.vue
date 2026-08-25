@@ -54,41 +54,41 @@ useSeoMeta({
                         </div>
                     </article>
 
-                    <article class="about__item">
-                        <span class="about__number">
-                            03
-                        </span>
+                <article class="about__item">
+                    <span class="about__number">
+                        03
+                    </span>
 
-                        <div>
-                            <h2 class="about__title">
-                                Who It Is For
-                            </h2>
+                    <div>
+                    <h2 class="about__title">
+                        Who It Is For
+                    </h2>
 
-                            <p>
-                                Remote Hustle is designed for students, graduates, early-career
-                                professionals and anyone looking to improve their skills,
-                                strengthen their CV and access better work opportunities.
-                            </p>
-                        </div>
-                    </article>
+                    <p>
+                        Remote Hustle is designed for students, graduates, early-career
+                        professionals and anyone looking to improve their skills,
+                        strengthen their CV and access better work opportunities.
+                    </p>
+                    </div>
+                </article>
 
-                    <article class="about__item">
-                        <span class="about__number">
-                            04
-                        </span>
+                <article class="about__item">
+                    <span class="about__number">
+                    04
+                    </span>
 
-                        <div>
-                            <h2 class="about__title">
-                                Our Mission
-                            </h2>
+                    <div>
+                    <h2 class="about__title">
+                        Our Mission
+                    </h2>
 
-                            <p>
-                                Our mission is to help people grow through practical learning,
-                                real experience, professional development and access to
-                                meaningful career opportunities.
-                            </p>
-                        </div>
-                    </article>
+                    <p>
+                        Our mission is to help people grow through practical learning,
+                        real experience, professional development and access to
+                        meaningful career opportunities.
+                    </p>
+                    </div>
+                </article>
                 </div>
             </div>
         </section>
@@ -99,46 +99,58 @@ useSeoMeta({
 
 <style scoped>
 .about__grid {
-    display: grid;
-    gap: var(--space-5);
+  display: grid;
+
+  gap: var(--space-5);
 }
 
 .about__item {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: var(--space-5);
-    padding: var(--space-6);
-    background: var(--color-white);
-    border: 1px solid var(--color-gray-200);
-    border-radius: var(--radius-lg);
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  gap: var(--space-5);
+
+  padding: var(--space-6);
+
+  background: var(--color-white);
+
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
 }
 
 .about__number {
-    width: 44px;
-    height: 44px;
-    display: grid;
-    place-items: center;
-    flex-shrink: 0;
-    color: var(--color-primary);
-    background: var(--color-primary-light);
-    border-radius: var(--radius-md);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-bold);
+  width: 44px;
+  height: 44px;
+
+  display: grid;
+  place-items: center;
+
+  flex-shrink: 0;
+
+  color: var(--color-primary);
+  background: var(--color-primary-light);
+
+  border-radius: var(--radius-md);
+
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
 }
 
 .about__title {
-    margin-bottom: var(--space-3);
-    font-size: var(--font-size-xl);
+  margin-bottom: var(--space-3);
+
+  font-size: var(--font-size-xl);
 }
 
 @media (min-width: 768px) {
-    .about__grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: var(--space-6);
-    }
+  .about__grid {
+    grid-template-columns: repeat(2, 1fr);
 
-    .about__item {
-        padding: var(--space-8);
-    }
+    gap: var(--space-6);
+  }
+
+  .about__item {
+    padding: var(--space-8);
+  }
 }
 </style>

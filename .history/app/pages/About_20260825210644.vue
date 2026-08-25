@@ -128,17 +128,19 @@ useSeoMeta({
 
 .about__title {
     margin-bottom: var(--space-3);
+
     font-size: var(--font-size-xl);
 }
 
 @media (min-width: 768px) {
-    .about__grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: var(--space-6);
-    }
+  .about__grid {
+    grid-template-columns: repeat(2, 1fr);
 
-    .about__item {
-        padding: var(--space-8);
-    }
+    gap: var(--space-6);
+  }
+
+  .about__item {
+    padding: var(--space-8);
+  }
 }
 </style>
