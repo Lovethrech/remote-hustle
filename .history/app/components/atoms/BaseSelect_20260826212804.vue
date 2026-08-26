@@ -10,19 +10,19 @@ defineProps({
         required: true
     },
 
-    type: {
+    modelValue: {
         type: String,
-        default: 'text'
+        default: ''
     },
 
-    modelValue: {
-        type: [String, Number],
-        default: ''
+    options: {
+        type: Array,
+        required: true
     },
 
     placeholder: {
         type: String,
-        default: ''
+        default: 'Select an option'
     },
 
     required: {
@@ -55,16 +55,29 @@ const emit = defineEmits(['update:modelValue'])
             </span>
         </label>
 
-        <input
+        <select
             :id="id"
-            :type="type"
             :value="modelValue"
-            :placeholder="placeholder"
             :required="required"
-            class="form-control__input"
-            :class="{ 'form-control__input--error': error }"
-            @input="emit('update:modelValue', $event.target.value)"
+            class="form-control__select"
+            :class="{ 'form-control__select--error': error }"
+            @change="emit('update:modelValue', $event.target.value)"
         >
+            <option
+                value=""
+                disabled
+            >
+                {{ placeholder }}
+            </option>
+
+            <option
+                v-for="option in options"
+                :key="option"
+                :value="option"
+            >
+                {{ option }}
+            </option>
+        </select>
 
         <p
             v-if="error"
@@ -76,29 +89,31 @@ const emit = defineEmits(['update:modelValue'])
 </template>
 
 <style scoped>
-.form-control__input {
+.form-control__select {
     min-height: 48px;
     padding-inline: var(--space-4);
     color: var(--color-gray-900);
     background: var(--color-white);
     border: 1px solid var(--color-gray-300);
     border-radius: var(--radius-md);
+    cursor: pointer;
     transition:
         border-color var(--transition-fast),
         box-shadow var(--transition-fast);
 }
 
-.form-control__input::placeholder {
-    color: var(--color-gray-400);
-}
-
-.form-control__input:focus {
+.form-control__select:focus {
     outline: none;
     border-color: var(--color-primary);
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
-.form-control__input--error {
+.form-control__select--error {
     border-color: var(--color-danger);
+}
+
+.form-control__error {
+    color: var(--color-danger);
+    font-size: var(--font-size-sm);
 }
 </style>
