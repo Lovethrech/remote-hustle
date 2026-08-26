@@ -83,6 +83,7 @@ useSeoMeta({
 @media (min-width: 1024px) {
     .products__grid {
         grid-template-columns: repeat(3, 1fr);
+
         gap: var(--space-6);
     }
 }

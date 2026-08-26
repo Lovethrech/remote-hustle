@@ -70,20 +70,22 @@ useSeoMeta({
 }
 
 .products__empty h2 {
-    margin-bottom: var(--space-3);
-    font-size: var(--font-size-2xl);
+  margin-bottom: var(--space-3);
+
+  font-size: var(--font-size-2xl);
 }
 
 @media (min-width: 640px) {
-    .products__grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .products__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 1024px) {
-    .products__grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: var(--space-6);
-    }
+  .products__grid {
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: var(--space-6);
+  }
 }
 </style>
