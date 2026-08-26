@@ -268,26 +268,28 @@ useSeoMeta({
 }
 
 @media (min-width: 768px) {
-    .registration__grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .registration__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .registration__full {
-        grid-column: 1 / -1;
-    }
+  .registration__full {
+    grid-column: 1 / -1;
+  }
 
-    .registration__card {
-        padding: var(--space-8);
-    }
+  .registration__card {
+    padding: var(--space-8);
+  }
 }
 
 @media (min-width: 1024px) {
-    .registration__layout {
-        grid-template-columns:
-            minmax(0, 0.8fr)
-            minmax(0, 1.2fr);
-        align-items: start;
-        gap: var(--space-16);
-    }
+  .registration__layout {
+    grid-template-columns:
+      minmax(0, 0.8fr)
+      minmax(0, 1.2fr);
+
+    align-items: start;
+
+    gap: var(--space-16);
+  }
 }
 </style>

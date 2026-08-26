@@ -282,12 +282,14 @@ useSeoMeta({
 }
 
 @media (min-width: 1024px) {
-    .registration__layout {
-        grid-template-columns:
-            minmax(0, 0.8fr)
-            minmax(0, 1.2fr);
-        align-items: start;
-        gap: var(--space-16);
-    }
+  .registration__layout {
+    grid-template-columns:
+      minmax(0, 0.8fr)
+      minmax(0, 1.2fr);
+
+    align-items: start;
+
+    gap: var(--space-16);
+  }
 }
 </style>
