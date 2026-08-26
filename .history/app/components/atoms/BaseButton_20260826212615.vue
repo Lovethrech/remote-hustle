@@ -95,48 +95,52 @@ defineProps({
 }
 
 .base-button:hover {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 
 .base-button--primary {
-    color: var(--color-white);
-    background: var(--color-primary);
+  color: var(--color-white);
+  background: var(--color-primary);
 }
 
 .base-button--primary:hover {
-    background: var(--color-primary-dark);
+  background: var(--color-primary-dark);
 }
 
 .base-button--secondary {
-    color: var(--color-gray-900);
-    background: var(--color-white);
-    border-color: var(--color-gray-300);
+  color: var(--color-gray-900);
+  background: var(--color-white);
+
+  border-color: var(--color-gray-300);
 }
 
 .base-button--secondary:hover {
-    color: var(--color-primary);
-    border-color: var(--color-primary);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .base-button--sm {
-    min-height: 40px;
-    padding-inline: var(--space-4);
-    font-size: var(--font-size-sm);
+  min-height: 40px;
+  padding-inline: var(--space-4);
+
+  font-size: var(--font-size-sm);
 }
 
 .base-button--md {
-    min-height: 46px;
-    padding-inline: var(--space-5);
-    font-size: var(--font-size-sm);
+  min-height: 46px;
+  padding-inline: var(--space-5);
+
+  font-size: var(--font-size-sm);
 }
 
 .base-button--lg {
-    min-height: 52px;
-    padding-inline: var(--space-6);
-    font-size: var(--font-size-base);
+  min-height: 52px;
+  padding-inline: var(--space-6);
+
+  font-size: var(--font-size-base);
 }
 
 .base-button--block {
-    width: 100%;
+  width: 100%;
 }
 </style>

@@ -121,22 +121,25 @@ defineProps({
 .base-button--sm {
     min-height: 40px;
     padding-inline: var(--space-4);
+
     font-size: var(--font-size-sm);
 }
 
 .base-button--md {
-    min-height: 46px;
-    padding-inline: var(--space-5);
-    font-size: var(--font-size-sm);
+  min-height: 46px;
+  padding-inline: var(--space-5);
+
+  font-size: var(--font-size-sm);
 }
 
 .base-button--lg {
-    min-height: 52px;
-    padding-inline: var(--space-6);
-    font-size: var(--font-size-base);
+  min-height: 52px;
+  padding-inline: var(--space-6);
+
+  font-size: var(--font-size-base);
 }
 
 .base-button--block {
-    width: 100%;
+  width: 100%;
 }
 </style>

@@ -131,12 +131,13 @@ defineProps({
 }
 
 .base-button--lg {
-    min-height: 52px;
-    padding-inline: var(--space-6);
-    font-size: var(--font-size-base);
+  min-height: 52px;
+  padding-inline: var(--space-6);
+
+  font-size: var(--font-size-base);
 }
 
 .base-button--block {
-    width: 100%;
+  width: 100%;
 }
 </style>

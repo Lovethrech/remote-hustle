@@ -148,18 +148,19 @@ main {
 }
 
 .form-control__label {
-    color: var(--color-gray-800);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-800);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
 }
 
 .form-control__required {
-    color: var(--color-danger);
+  color: var(--color-danger);
 }
 
 .form-control__error {
-    color: var(--color-danger);
-    font-size: var(--font-size-sm);
+  color: var(--color-danger);
+
+  font-size: var(--font-size-sm);
 }
 
 /* Responsive */

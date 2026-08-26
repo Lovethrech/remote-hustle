@@ -137,6 +137,6 @@ defineProps({
 }
 
 .base-button--block {
-    width: 100%;
+  w idth: 100%;
 }
 </style>

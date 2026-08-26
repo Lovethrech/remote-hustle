@@ -154,12 +154,13 @@ main {
 }
 
 .form-control__required {
-    color: var(--color-danger);
+  color: var(--color-danger);
 }
 
 .form-control__error {
-    color: var(--color-danger);
-    font-size: var(--font-size-sm);
+  color: var(--color-danger);
+
+  font-size: var(--font-size-sm);
 }
 
 /* Responsive */
