@@ -36,26 +36,29 @@ useSeoMeta({
 
 <style scoped>
 .opportunities {
-    background: var(--color-white);
+  background: var(--color-white);
 }
 
 .opportunities__grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-4);
+  display: grid;
+  grid-template-columns: 1fr;
+
+  gap: var(--space-4);
 }
 
 @media (min-width: 640px) {
-    .opportunities__grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: var(--space-5);
-    }
+  .opportunities__grid {
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: var(--space-5);
+  }
 }
 
 @media (min-width: 1024px) {
-    .opportunities__grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: var(--space-6);
-    }
+  .opportunities__grid {
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: var(--space-6);
+  }
 }
 </style>
