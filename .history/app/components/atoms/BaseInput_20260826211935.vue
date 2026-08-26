@@ -89,37 +89,44 @@ const emit = defineEmits(['update:modelValue'])
 }
 
 .form-control__required {
-    color: var(--color-danger);
+  color: var(--color-danger);
 }
 
 .form-control__input {
-    min-height: 48px;
-    padding-inline: var(--space-4);
-    color: var(--color-gray-900);
-    background: var(--color-white);
-    border: 1px solid var(--color-gray-300);
-    border-radius: var(--radius-md);
-    transition:
-        border-color var(--transition-fast),
-        box-shadow var(--transition-fast);
+  min-height: 48px;
+
+  padding-inline: var(--space-4);
+
+  color: var(--color-gray-900);
+  background: var(--color-white);
+
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-md);
+
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
 .form-control__input::placeholder {
-    color: var(--color-gray-400);
+  color: var(--color-gray-400);
 }
 
 .form-control__input:focus {
-    outline: none;
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  outline: none;
+
+  border-color: var(--color-primary);
+
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
 .form-control__input--error {
-    border-color: var(--color-danger);
+  border-color: var(--color-danger);
 }
 
 .form-control__error {
-    color: var(--color-danger);
-    font-size: var(--font-size-sm);
+  color: var(--color-danger);
+
+  font-size: var(--font-size-sm);
 }
 </style>

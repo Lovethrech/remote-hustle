@@ -115,11 +115,12 @@ const emit = defineEmits(['update:modelValue'])
 }
 
 .form-control__input--error {
-    border-color: var(--color-danger);
+  border-color: var(--color-danger);
 }
 
 .form-control__error {
-    color: var(--color-danger);
-    font-size: var(--font-size-sm);
+  color: var(--color-danger);
+
+  font-size: var(--font-size-sm);
 }
 </style>
