@@ -179,14 +179,14 @@ useSeoMeta({
                             </div>
 
                             <div class="registration__submit">
-                                <AtomsBaseButton
+                                <BaseButton
                                     type="submit"
                                     variant="primary"
                                     size="lg"
                                     block
                                 >
                                     Register
-                                </AtomsBaseButton>
+                                </BaseButton>
                             </div>
                         </form>
                     </div>
