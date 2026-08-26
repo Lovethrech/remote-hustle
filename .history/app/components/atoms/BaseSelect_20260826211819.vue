@@ -63,73 +63,83 @@ const emit = defineEmits(['update:modelValue'])
             :class="{ 'form-control__select--error': error }"
             @change="emit('update:modelValue', $event.target.value)"
         >
-            <option
-                value=""
-                disabled
-            >
-                {{ placeholder }}
-            </option>
+        <option
+            value=""
+            disabled
+        >
+            {{ placeholder }}
+        </option>
 
-            <option
-                v-for="option in options"
-                :key="option"
-                :value="option"
-            >
-                {{ option }}
-            </option>
+        <option
+            v-for="option in options"
+            :key="option"
+            :value="option"
+        >
+            {{ option }}
+        </option>
         </select>
 
         <p
-            v-if="error"
-            class="form-control__error"
+        v-if="error"
+        class="form-control__error"
         >
-            {{ error }}
+        {{ error }}
         </p>
     </div>
 </template>
 
 <style scoped>
 .form-control {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--space-2);
 }
 
 .form-control__label {
-    color: var(--color-gray-800);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-800);
+
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
 }
 
 .form-control__required {
-    color: var(--color-danger);
+  color: var(--color-danger);
 }
 
 .form-control__select {
-    min-height: 48px;
-    padding-inline: var(--space-4);
-    color: var(--color-gray-900);
-    background: var(--color-white);
-    border: 1px solid var(--color-gray-300);
-    border-radius: var(--radius-md);
-    cursor: pointer;
-    transition:
-        border-color var(--transition-fast),
-        box-shadow var(--transition-fast);
+  min-height: 48px;
+
+  padding-inline: var(--space-4);
+
+  color: var(--color-gray-900);
+  background: var(--color-white);
+
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-md);
+
+  cursor: pointer;
+
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
 .form-control__select:focus {
-    outline: none;
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+  outline: none;
+
+  border-color: var(--color-primary);
+
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
 }
 
 .form-control__select--error {
-    border-color: var(--color-danger);
+  border-color: var(--color-danger);
 }
 
 .form-control__error {
-    color: var(--color-danger);
-    font-size: var(--font-size-sm);
+  color: var(--color-danger);
+
+  font-size: var(--font-size-sm);
 }
 </style>
